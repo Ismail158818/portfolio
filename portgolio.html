@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eng.ismail mahmoud Basbous | Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.rtl.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    
+    <!-- ربط ملف JavaScript -->
+    <script src="main.js" defer></script>
+</head>
+
+<body data-bs-spy="scroll" data-bs-target="#mainNavbar" data-bs-offset="80" tabindex="0">
+    <!-- Loader -->
+    <div id="loader" style="position:fixed;z-index:9999;inset:0;display:flex;align-items:center;justify-content:center;background:#181c2a;transition:opacity 0.5s;">
+        <div style="text-align:center;">
+            <div class="spinner-border text-primary" style="width:4rem;height:4rem;"></div>
+            <div style="color:#fff;margin-top:1rem;font-size:1.2rem;">جار التحميل...</div>
+        </div>
+    </div>
+    <!-- Quick Contact Button -->
+    <a href="https://wa.me/963936147908" target="_blank" id="quickContact" class="quick-contact-btn whatsapp" title="واتساب"><i class="fab fa-whatsapp"></i></a>
+    <a href="https://t.me/Ismail158818" target="_blank" id="quickTelegram" class="quick-contact-btn telegram" title="تلغرام"><i class="fab fa-telegram"></i></a>
+    <nav id="mainNavbar" class="navbar navbar-expand-lg navbar-dark fixed-top shadow">
+        <div class="container">
+            <a class="navbar-brand" href="#hero">Eng.ismail mahmoud Basbous</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item"><a class="nav-link active" href="#hero" data-section="hero">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#about" data-section="about">About</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#portfolio" data-section="portfolio">Portfolio</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#skills" data-section="skills">Skills</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#certificates" data-section="certificates">Certificates</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#contact" data-section="contact">Contact</a></li>
+                </ul>
+                <button class="btn btn-outline-light lang-toggle" id="langBtn">EN</button>
+                <button class="btn btn-outline-light dark-toggle" id="darkBtn" title="تبديل الوضع الداكن"><i class="fas fa-moon"></i></button>
+            </div>
+        </div>
+    </nav>
+    <!-- شريط المهارات التقني الثابت -->
+    <div id="techBar" style="position:fixed;top:56px;left:0;right:0;z-index:1040;background:#fff;border-bottom:1px solid #eee;padding:6px 0;text-align:center;font-weight:bold;letter-spacing:1px;box-shadow:0 2px 8px rgba(0,0,0,0.03);">
+        <span style="color:#3a2fa4;">Laravel</span> |
+        <span style="color:#6c63ff;">PHP</span> |
+        <span style="color:#3a2fa4;">MySQL</span> |
+        <span style="color:#6c63ff;">JavaScript</span> |
+        <span style="color:#3a2fa4;">Bootstrap</span> |
+        <span style="color:#6c63ff;">Git</span> |
+        <span style="color:#3a2fa4;">RESTful API</span> |
+        <span style="color:#6c63ff;"> Payment Integration</span>
+    </div>
+    <section class="hero" id="hero">
+        <div class="container" data-aos>
+            <img src="photo/profile.jpg" alt="Profile" class="profile-pic" id="profilePic">
+            <h1 class="hero-title" id="heroName">المهندس إسماعيل محمود بصبوص</h1>
+            <div class="hero-job" id="heroJob">مطور برمجيات Backend بلارافيل</div>
+            <div class="hero-summary" id="heroSummary">
+                مطور Laravel Backend متمرس في بناء تطبيقات الويب القابلة للتوسع وواجهات برمجة التطبيقات RESTful. شغوف بتقديم حلول فعالة وآمنة.
+            </div>
+            <!-- أيقونات التواصل في الهيرو -->
+            <div class="hero-social mb-3 d-flex justify-content-center gap-3">
+                <a href="https://github.com/Ismail158818" target="_blank" class="hero-social-icon" title="GitHub"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/ismail-basbous-b2b7a0225/" target="_blank" class="hero-social-icon" title="LinkedIn"><i class="fab fa-linkedin"></i></a>
+            </div>
+            <a href="#portfolio" class="btn btn-light mt-3">شاهد أعمالي</a>
+        </div>
+    </section>
+    <section id="about">
+        <div class="container" data-aos>
+            <h2 class="text-center mb-4" id="aboutTitle">من أنا؟</h2>
+            <div class="row justify-content-center">
+                <div class="col-lg-7">
+                    <div class="about-bio" id="aboutBio">
+                        المهندس إسماعيل محمود بصبوص مطور Laravel Backend بخبرة عملية في بناء تطبيقات ويب قابلة للتوسع وواجهات برمجة تطبيقات RESTful. ماهر في PHP وMySQL وLaravel وBootstrap وأدوات التطوير الحديثة. بارع في تصميم قواعد البيانات، والتواصل الفوري باستخدام Pusher/Chatify، ودمج الدفع الإلكتروني ، والتحكم في الإصدارات باستخدام Git/GitHub. أتمتع بقدرات قوية في حل المشكلات وشغف بتقديم حلول خلفية فعالة وآمنة. ملتزم بالتعلم المستمر والمساهمة في مشاريع برمجية مؤثرة.
+                    </div>
+                    <ul class="list-unstyled contact-info mb-4" id="contactInfo">
+                        <li><i class="fas fa-envelope"></i> ismahel680@gmail.com</li>
+                        <li><i class="fab fa-whatsapp"></i> <a href="https://wa.me/963936147908" target="_blank" style="text-decoration:none;color:inherit">تواصل واتساب</a></li>
+                        <li><i class="fas fa-map-marker-alt"></i> جرمانا، ريف دمشق، سوريا</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container" data-aos>
+            <h2 class="text-center mb-5" id="portfolioTitle">أعمالي ومشاريعي</h2>
+            <div class="row g-4" id="projectsList">
+                <!-- Projects will be rendered by JS -->
+            </div>
+        </div>
+        <!-- Modal for project details -->
+        <div class="modal fade" id="projectModal" tabindex="-1" aria-labelledby="projectModalLabel" aria-hidden="true">
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="projectModalLabel"></h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                        <!-- Bootstrap Carousel for project images -->
+                        <div id="projectCarousel" class="carousel slide mb-3" data-bs-ride="carousel">
+                          <div class="carousel-inner" id="carouselInner"></div>
+                          <button class="carousel-control-prev" type="button" data-bs-target="#projectCarousel" data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                          </button>
+                          <button class="carousel-control-next" type="button" data-bs-target="#projectCarousel" data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                          </button>
+                        </div>
+                        <div id="modalDesc" class="mb-3"></div>
+                        <div id="modalDetails"></div>
+                    </div>
+                    <div class="modal-footer">
+                        <a id="modalGithub" href="#" target="_blank" class="btn btn-dark"><i class="fab fa-github"></i> GitHub</a>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">إغلاق</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="skills">
+        <div class="container" data-aos>
+            <h2 class="text-center mb-5" id="skillsTitle">المهارات التقنية</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <div class="row gy-4" id="skillsList">
+                        <!-- Skills will be rendered by JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="certificates">
+        <div class="container" data-aos>
+            <h2 class="text-center mb-5" id="certTitle">الشهادات والتوصيات</h2>
+            <div class="row justify-content-center">
+                <div class="col-md-6">
+                    <div class="certificate-card text-center">
+                        <img src="Certificates and Recommendations/STEM - Ismail basbous.jpg" alt="شهادة STEM" style="max-width:120px;cursor:pointer;box-shadow:0 2px 8px #aaa;border:2px solid #eee;" data-bs-toggle="modal" data-bs-target="#certModal1">
+                        <div class="fw-bold mb-2">شهادة تطوير الويب باستخدام Laravel - STEM</div>
+                        <a href="Certificates and Recommendations/STEM - Ismail basbous.pdf" target="_blank">مشاهدة الشهادة PDF</a>
+                    </div>
+                </div>
+                <div class="col-md-6">
+                    <div class="certificate-card text-center">
+                        <img src="Certificates and Recommendations/Recommendation Letter - Ismail basbous.jpg" alt="توصية عمرو الدروبي" style="max-width:120px;cursor:pointer;box-shadow:0 2px 8px #aaa;border:2px solid #eee;" data-bs-toggle="modal" data-bs-target="#certModal2">
+                        <div class="fw-bold mb-2">رسالة توصية من المهندس عمرو الدروبي - مدير شركة دربني</div>
+                        <a href="Certificates and Recommendations/Recommendation Letter - Ismail basbous.pdf" target="_blank">مشاهدة التوصية PDF</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- Modal for STEM Certificate -->
+        <div class="modal fade" id="certModal1" tabindex="-1" aria-labelledby="certModalLabel1" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="certModalLabel1">شهادة تطوير الويب باستخدام Laravel - STEM</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="Certificates and Recommendations/STEM - Ismail basbous.jpg" alt="شهادة STEM" class="img-fluid rounded">
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- Modal for Recommendation Letter -->
+        <div class="modal fade" id="certModal2" tabindex="-1" aria-labelledby="certModalLabel2" aria-hidden="true">
+          <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h5 class="modal-title" id="certModalLabel2">رسالة توصية من المهندس عمرو الدروبي</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+              </div>
+              <div class="modal-body text-center">
+                <img src="Certificates and Recommendations/Recommendation Letter - Ismail basbous.jpg" alt="توصية عمرو الدروبي" class="img-fluid rounded">
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
+    <!-- قسم التواصل الاحترافي -->
+    <section id="contact">
+      <div class="container" data-aos>
+        <h2 class="text-center mb-4" id="contactFormTitle">تواصل معي</h2>
+        <div class="row justify-content-center">
+          <div class="col-md-7 text-center">
+            <div class="mb-3 contact-lead text-muted" style="font-size:1.1rem;">للتواصل السريع اختر أي وسيلة تناسبك:</div>
+            <div class="d-flex justify-content-center gap-4 mb-4 flex-wrap">
+              <a href="#" class="contact-icon" id="emailContactBtn" title="إيميل"><i class="fas fa-envelope"></i><div>الإيميل</div></a>
+              <a href="https://wa.me/963936147908" target="_blank" class="contact-icon" title="واتساب"><i class="fab fa-whatsapp"></i><div>واتساب</div></a>
+              <a href="https://t.me/Ismail158818" target="_blank" class="contact-icon" title="تلغرام"><i class="fab fa-telegram"></i><div>تلغرام</div></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <footer>
+        <div class="footer-social mb-2">
+            <a href="https://github.com/Ismail158818" target="_blank"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/ismail-basbous-b2b7a0225/" target="_blank"><i class="fab fa-linkedin"></i></a>
+        </div>
+        <div id="footerText"></div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+   
+</body>
+
+</html>
