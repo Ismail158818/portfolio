@@ -719,19 +719,21 @@ body.dark-mode .project-card:hover {
 }
 
 .navbar-toggler {
-    border-color: rgba(0,0,0,.1) !important; /* لون الحدود للزر */
+    background-color: #e0e0e0; /* لون خلفية أغمق قليلاً في الوضع الفاتح */
+    border-color: #a0a0a0 !important; /* لون حدود أكثر وضوحاً */
 }
 
 .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%280, 0, 0, 0.7%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2830, 30, 30, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important; /* لون خطوط الهامبرغر أغمق وأكثر وضوحاً */
 }
 
 body.dark-mode .navbar-toggler {
-    border-color: rgba(255,255,255,.1) !important;
+    background-color: #343a40; /* لون خلفية مناسب للوضع الداكن */
+    border-color: rgba(255,255,255,.2) !important;
 }
 
 body.dark-mode .navbar-toggler-icon {
-    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.8%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28255, 255, 255, 0.9%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e") !important;
 }
 
 .navbar-collapse.show {
