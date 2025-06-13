@@ -298,7 +298,19 @@ body.dark-mode .certificate-card a {
 
 body { padding-top: 96px !important; }
 
-@media (max-width: 991px) { #techBar { top: 56px; font-size: 0.95rem; } body { padding-top: 110px !important; } }
+@media (max-width: 991px) {
+    .navbar-toggler {
+        display: block !important;
+    }
+    .navbar-collapse {
+        background-color: var(--bg-light); /* أو لون مناسب لوضع النهار */
+        /* يمكنك إضافة padding أو border-radius هنا لتحسين المظهر */
+    }
+    body.dark-mode .navbar-collapse {
+        background-color: var(--bg-dark) !important; /* أو لون مناسب لوضع الليل */
+    }
+    #techBar { top: 56px; font-size: 0.95rem; } body { padding-top: 110px !important; }
+}
 
 @media (max-width: 575px) { #techBar { top: 56px; font-size: 0.85rem; } body { padding-top: 120px !important; } }
 
