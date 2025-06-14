@@ -22,11 +22,11 @@ const data = {
         projects: [
             {
                 title: 'منصة تواصل اجتماعي',
-                desc: 'منصة متكاملة للتواصل الاجتماعي مبنية باستخدام Laravel وPHP وHTML وCSS وBootstrap وJavaScript. تشمل مصادقة المستخدمين، منشورات، تعليقات، متابعة/حظر، مجموعات، ودردشة فورية. تم التركيز على الأمان، الأداء، وتجربة المستخدم. تم تطبيق تقنيات WebSocket للدردشة الفورية، ونظام إشعارات متقدم، مع لوحة تحكم للإدارة وتحليل البيانات. خبرتي في بناء هذا المشروع شملت تصميم قاعدة بيانات مرنة، وتكامل مع خدمات خارجية مثل Chatify وPusher، بالإضافة إلى بناء RESTful API متكامل.',
-                img: 'social/1.png',
-                gallery: ['social/1.png','social/2.png','social/3.png','social/4.png'],
-                github: 'https://github.com/Ismail158818/social-media-platform',
-                details: `<ul><li>تسجيل ودخول المستخدمين مع مصادقة آمنة</li><li>إمكانية النشر، التعليق، المتابعة والحظر</li><li>دعم إنشاء المجموعات والدردشة الفورية عبر Chatify</li><li>نظام بحث وتصفية متقدم للمنشورات</li><li>لوحة تحكم للإدارة وتحليل البيانات</li><li>RESTful API متكامل</li></ul>`
+        desc: 'منصة متكاملة للتواصل الاجتماعي مبنية باستخدام Laravel وPHP وHTML وCSS وBootstrap وJavaScript. تشمل مصادقة المستخدمين، منشورات، تعليقات، متابعة/حظر، مجموعات، ودردشة فورية. تم التركيز على الأداء وتجربة المستخدم. خبرتي في بناء هذا المشروع شملت تصميم قاعدة بيانات مرنة، وتكامل مع خدمات خارجية مثل Chatify وPusher، بالإضافة إلى بناء RESTful API متكامل.',
+        img: 'social/1.png',
+        gallery: ['social/1.png','social/2.png','social/3.png','social/4.png'],
+        github: 'https://github.com/Ismail158818/social-media-platform',
+        details: `<ul><li>تسجيل ودخول المستخدمين مع مصادقة آمنة</li><li>إمكانية النشر، التعليق، المتابعة والحظر</li><li>دعم إنشاء المجموعات والدردشة الفورية عبر Chatify</li><li>نظام بحث وتصفية متقدم للمنشورات</li><li>لوحة تحكم للإدارة وتحليل البيانات</li><li>RESTful API متكامل</li></ul>`
             },
             {
                 title: 'متجر كتب إلكتروني',
@@ -62,11 +62,11 @@ const data = {
             },
             {
                 title: 'منصة إدارة فعاليات',
-                desc: 'نظام متكامل لإدارة الفعاليات مع حجز تذاكر تلقائي، إشعارات فورية، ودفع إلكتروني عبر Stripe. تم بناء نظام إدارة حضور، مع دعم تصدير التقارير، ولوحة تحكم للإدارة. خبرتي شملت بناء نظام إشعارات فورية، وتكامل مع خدمات الدفع، وتصميم واجهات مستخدم تفاعلية.',
+                desc: 'نظام متكامل لإدارة الفعاليات مع حجز تذاكر تلقائي ودفع إلكتروني عبر Stripe. تم بناء نظام إدارة حضور، مع دعم تصدير التقارير، ولوحة تحكم للإدارة. خبرتي شملت بناء نظام حجز تذاكر، وتكامل مع خدمات الدفع، وتصميم واجهات مستخدم تفاعلية.',
                 img: 'party/1.png',
                 gallery: ['party/1.png','party/2.png','party/3.png','party/4.png'],
                 github: 'https://github.com/Ismail158818/Party-Mangement',
-                details: `<ul><li>حجز تذاكر تلقائي</li><li>إشعارات فورية</li><li>دعم الدفع الإلكتروني عبر Stripe</li><li>تصدير تقارير الحضور</li></ul>`
+                details: `<ul><li>حجز تذاكر تلقائي</li><li>دعم الدفع الإلكتروني عبر Stripe</li><li>تصدير تقارير الحضور</li></ul>`
             }
         ],
         skillsTitle: 'المهارات التقنية',
@@ -106,12 +106,12 @@ const data = {
         projects: [
             {
                 title: 'Social Media Platform',
-                desc: 'Built a full-featured social media platform using Laravel, PHP, HTML, CSS, Bootstrap, and JavaScript. Includes authentication, posts, comments, following/blocking, groups, and real-time chat.',
-                img: 'social/1.png',
-                gallery: ['social/1.png','social/2.png','social/3.png','social/4.png'],
-                github: 'https://github.com/Ismail158818/social-media-platform',
-                details: `<ul><li>User registration and secure authentication</li><li>Posts, comments, follow/block features</li><li>Groups and real-time chat via Chatify</li><li>Advanced search and filtering for posts</li></ul>`
-            },
+desc: 'Developed a comprehensive social media platform using Laravel, PHP, HTML, CSS, Bootstrap, and JavaScript. Features include secure user authentication, post creation, commenting, follow/block functionality, group management, and real-time chat using Chatify and Pusher.',
+img: 'social/1.png',
+gallery: ['social/1.png','social/2.png','social/3.png','social/4.png'],
+github: 'https://github.com/Ismail158818/social-media-platform',
+details: `<ul><li>Secure user registration and authentication</li><li>Post creation, comments, and follow/block features</li><li>Group creation and real-time chat via Chatify and Pusher</li><li>Advanced post search and filtering</li></ul>`
+    },
             {
                 title: 'Online Bookstore',
                 desc: 'Designed an online bookstore with a fully functional API, book management, categories, favorites, and integrated electronic payment.',
@@ -146,11 +146,11 @@ const data = {
             },
             {
                 title: 'Event Management Platform',
-                desc: 'Event management system with automated ticket reservation, real-time notifications, and Stripe payment integration.',
+                desc: 'Event management system with automated ticket reservation and Stripe payment integration.',
                 img: 'party/1.png',
                 gallery: ['party/1.png','party/2.png','party/3.png','party/4.png'],
                 github: 'https://github.com/Ismail158818/Party-Mangement',
-                details: `<ul><li>Automated ticket reservation</li><li>Real-time notifications</li><li>Stripe payment support</li></ul>`
+                details: `<ul><li>Automated ticket reservation</li><li>Stripe payment support</li></ul>`
             }
         ],
         skillsTitle: 'Technical Skills',
@@ -213,11 +213,11 @@ const projectDetails = {
         },
         {
             title: 'منصة إدارة فعاليات',
-            desc: 'نظام متكامل لإدارة الفعاليات مع حجز تذاكر تلقائي، إشعارات فورية، ودفع إلكتروني عبر Stripe. تم بناء نظام إدارة حضور، مع دعم تصدير التقارير، ولوحة تحكم للإدارة. خبرتي شملت بناء نظام إشعارات فورية، وتكامل مع خدمات الدفع، وتصميم واجهات مستخدم تفاعلية.',
+            desc: 'نظام متكامل لإدارة الفعاليات مع حجز تذاكر تلقائي ودفع إلكتروني عبر Stripe. تم بناء نظام إدارة حضور، مع دعم تصدير التقارير، ولوحة تحكم للإدارة. خبرتي شملت بناء نظام حجز تذاكر، وتكامل مع خدمات الدفع، وتصميم واجهات مستخدم تفاعلية.',
             img: 'party/1.png',
             gallery: ['party/1.png','party/2.png','party/3.png','party/4.png'],
             github: 'https://github.com/Ismail158818/Party-Mangement',
-            details: `<ul><li>حجز تذاكر تلقائي</li><li>إشعارات فورية</li><li>دعم الدفع الإلكتروني عبر Stripe</li><li>تصدير تقارير الحضور</li></ul>`
+            details: `<ul><li>حجز تذاكر تلقائي</li><li>دعم الدفع الإلكتروني عبر Stripe</li><li>تصدير تقارير الحضور</li></ul>`
         }
     ]
 };
