@@ -155,13 +155,12 @@ details: `<ul><li>Secure user registration and authentication</li><li>Post creat
         ],
         skillsTitle: 'Technical Skills',
         skills: [
-            {name: 'PHP', icon: 'fab fa-php', level: 95},
             {name: 'Laravel', icon: 'fab fa-laravel', level: 92},
             {name: 'MySQL', icon: 'fas fa-database', level: 90},
-            {name: 'Bootstrap', icon: 'fab fa-bootstrap', level: 90},
+            {name: 'Bootstrap', icon: 'fab fa-bootstrap', level: 75},
             {name: 'Git/GitHub', icon: 'fab fa-git-alt', level: 90},
             {name: 'RESTful API', icon: 'fas fa-plug', level: 90},
-            {name: 'Pusher/Chatify', icon: 'fas fa-comments', level: 80},
+            {name: 'Pusher', icon: 'fas fa-comments', level: 80},
             {name: 'Payment Integration', icon: 'fas fa-credit-card', level: 80}
         ],
         footerText: '',
