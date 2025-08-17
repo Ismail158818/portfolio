@@ -123,7 +123,7 @@ const data = {
         dir: 'ltr', lang: 'en',
         nav: ['Home','About','Portfolio','Skills','Contact'],
         heroName: 'Eng. Ismail Mahmoud Basbous',
-        heroJob: 'Full Stack Developer (Laravel & JavaScript)',
+        heroJob: 'Full Stack Developer ',
         heroSummary: 'Experienced Full Stack Developer skilled in building complete web applications from frontend to backend. Specialized in Laravel for backend and HTML/CSS/JavaScript for frontend. Passionate about delivering integrated and efficient solutions.',
         heroBtn: 'View My Work',
         aboutTitle: 'About Me',
