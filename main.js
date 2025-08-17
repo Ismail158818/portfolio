@@ -129,13 +129,13 @@ const data = {
         aboutTitle: 'About Me',
         aboutBio: 'Eng. Ismail Mahmoud Basbous, a Full Stack Developer with hands-on experience in building complete web applications. Proficient in PHP and Laravel for backend development, and HTML, CSS, and JavaScript for frontend development. Experienced in building interactive user interfaces using Bootstrap and JavaScript, as well as developing robust backend systems with Laravel. I focus on delivering end-to-end solutions with emphasis on user experience and system performance.',
         contactInfo: [
-            '<i class="fas fa-envelope"></i> ismahel680@gmail.com',
+            '<i class="fas fa-envelope"></i> ismail158818@gmail.com',
             '<i class="fab fa-whatsapp"></i> <a href="https://wa.me/963936147908" target="_blank" style="text-decoration:none;color:inherit">Contact via WhatsApp</a>',
             '<i class="fas fa-map-marker-alt"></i> Damascus, Syria'
         ],
         contactFormTitle: 'Contact Me',
         formName: 'Name',
-        formEmail: 'ismai158818@gmail.com',
+ formEmail: 'Email',
         formMsg: 'Your Message',
         formSendBtn: 'Send',
         portfolioTitle: 'My Projects',
@@ -468,7 +468,7 @@ const emailBtn = document.getElementById('emailContactBtn');
 if(emailBtn) {
     emailBtn.addEventListener('click', function(e) {
         e.preventDefault();
-        window.location.href = 'mailto:ismahel680@gmail.com';
+        window.location.href = 'mailto:ismail@158818@gmail.com';
     });
 }
 
