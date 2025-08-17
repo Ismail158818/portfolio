@@ -9,7 +9,7 @@ const data = {
         aboutTitle: 'من أنا؟',
         aboutBio: 'المهندس إسماعيل محمود بصبوص مطور Full Stack بخبرة عملية في بناء تطبيقات ويب متكاملة. ماهر في PHP وLaravel للBackend، وHTML وCSS وJavaScript للFrontend. لدي خبرة في بناء واجهات مستخدم تفاعلية باستخدام Bootstrap وJavaScript، بالإضافة إلى تطوير أنظمة Backend قوية باستخدام Laravel. أعمل على تقديم حلول متكاملة من البداية إلى النهاية، مع التركيز على تجربة المستخدم وأداء النظام.',
         contactInfo: [
-            '<i class="fas fa-envelope"></i> ismahel680@gmail.com',
+            '<i class="fas fa-envelope"></i> ismail158818@gmail.com',
             '<i class="fab fa-whatsapp"></i> <a href="https://wa.me/963936147908" target="_blank" style="text-decoration:none;color:inherit">تواصل واتساب</a>',
             '<i class="fas fa-map-marker-alt"></i> دمشق، سوريا'
         ],
