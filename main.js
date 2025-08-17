@@ -135,7 +135,7 @@ const data = {
         ],
         contactFormTitle: 'Contact Me',
         formName: 'Name',
-        formEmail: 'Email',
+        formEmail: 'ismai158818@gmail.com',
         formMsg: 'Your Message',
         formSendBtn: 'Send',
         portfolioTitle: 'My Projects',
