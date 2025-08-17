@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 const data = {
     ar: {
         dir: 'rtl', lang: 'ar',
