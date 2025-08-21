@@ -3,13 +3,13 @@ const data = {
         dir: 'rtl', lang: 'ar',
         nav: ['الرئيسية','من أنا','أعمالي','المهارات','تواصل'],
         heroName: 'م. إسماعيل محمود بصبوص',
-        heroJob: 'مطور ويب متكامل',
-        heroSummary: 'مطور ويب متكامل متمرس في بناء تطبيقات الويب من الواجهة الأمامية إلى الخلفية، متخصص في Laravel لتطوير Backend وHTML/CSS/JavaScript لتطوير Frontend. شغوف بتقديم حلول متكاملة وفعالة',
+        heroJob: 'مطور واجهة خلفية بإستخدام Laravel',
+        heroSummary: 'مطور Laravel Backend متمرس في بناء تطبيقات الويب القابلة للتوسع وواجهات برمجة التطبيقات RESTful. شغوف بتقديم حلول فعالة وآمنة.',
         heroBtn: 'شاهد أعمالي',
         aboutTitle: 'من أنا؟',
-        aboutBio: 'المهندس إسماعيل محمود بصبوص مطور Full Stack بخبرة عملية في بناء تطبيقات ويب متكاملة. ماهر في PHP وLaravel للBackend، وHTML وCSS وJavaScript للFrontend. لدي خبرة في بناء واجهات مستخدم تفاعلية باستخدام Bootstrap وJavaScript، بالإضافة إلى تطوير أنظمة Backend قوية باستخدام Laravel. أعمل على تقديم حلول متكاملة من البداية إلى النهاية، مع التركيز على تجربة المستخدم وأداء النظام.',
+        aboutBio: 'المهندس إسماعيل محمود بصبوص مطور Laravel Backend بخبرة عملية في بناء تطبيقات ويب قابلة للتوسع وواجهات برمجة تطبيقات RESTful. ماهر في PHP وMySQL وLaravel وBootstrap وأدوات التطوير الحديثة. بارع في تصميم قواعد البيانات، والتواصل الفوري باستخدام Pusher/Chatify، ودمج الدفع الإلكتروني ، والتحكم في الإصدارات باستخدام Git/GitHub. أتمتع بقدرات قوية في حل المشكلات وشغف بتقديم حلول خلفية فعالة وآمنة. ملتزم بالتعلم المستمر والمساهمة في مشاريع برمجية مؤثرة.',
         contactInfo: [
-            '<i class="fas fa-envelope"></i> ismail158818@gmail.com',
+            '<i class="fas fa-envelope"></i> ismahel680@gmail.com',
             '<i class="fab fa-whatsapp"></i> <a href="https://wa.me/963936147908" target="_blank" style="text-decoration:none;color:inherit">تواصل واتساب</a>',
             '<i class="fas fa-map-marker-alt"></i> دمشق، سوريا'
         ],
@@ -22,99 +22,63 @@ const data = {
         projects: [
             {
                 title: 'منصة تواصل اجتماعي',
-                desc: 'منصة متكاملة للتواصل الاجتماعي مبنية باستخدام Laravel للBackend وHTML/CSS/JavaScript للFrontend. تشمل واجهة مستخدم تفاعلية مع نظام مصادقة، إنشاء المنشورات، التعليقات، المتابعة، والمحادثات الفورية. قمت بتطوير كل من الواجهة الأمامية والخلفية لهذا المشروع.',
-                img: 'social/1.png',
-                gallery: ['social/1.png','social/2.png','social/3.png','social/4.png','social/5.png','social/6.png','social/7.png'],
-                github: 'https://github.com/Ismail158818/social-media-platform',
-                details: `<ul>
-                    <li>واجهة مستخدم تفاعلية باستخدام HTML/CSS/JavaScript</li>
-                    <li>نظام Backend باستخدام Laravel</li>
-                    <li>مصادقة المستخدمين وتأمين البيانات</li>
-                    <li>إنشاء المنشورات والتعليقات</li>
-                    <li>نظام متابعة المستخدمين</li>
-                    <li>دردشة فورية باستخدام WebSocket</li>
-                </ul>`
-            },
-            {
-                title: 'تطبيق قائمة مهام',
-                desc: 'تطبيق ويب متكامل لإدارة المهام مع واجهة مستخدم نظيفة وسهلة الاستخدام. تم تطوير الواجهة الأمامية باستخدام HTML وCSS وJavaScript، بينما تم بناء نظام إدارة المهام باستخدام Laravel. يتضمن التطبيق ميزات مثل تصنيف المهام، تحديد الأولويات، وتنبيهات المواعيد النهائية.',
-                img: 'todolist/1.png',
-                gallery: ['todolist/1.png','todolist/2.png','todolist/3.png','todolist/4.png'],
-                github: 'https://github.com/Ismail158818/To-Do-List',
-                details: `<ul>
-                    <li>واجهة مستخدم جذابة وسهلة الاستخدام</li>
-                    <li>إضافة وتعديل وحذف المهام</li>
-                    <li>تصنيف المهام حسب الأولوية</li>
-                    <li>تنبيهات المواعيد النهائية</li>
-                    <li>نظام Backend آمن باستخدام Laravel</li>
-                </ul>`
-            },
-            {
-                title: 'منصة إدارة استبيانات',
-                desc: 'منصة متقدمة لإنشاء وإدارة الاستبيانات مع واجهة مستخدم غنية بالميزات. قمت بتطوير الواجهة الأمامية باستخدام HTML وCSS وJavaScript مع التركيز على تجربة المستخدم، بينما تم بناء نظام إدارة الاستبيانات وتحليل النتائج باستخدام Laravel.',
-                img: 'survey/1.png',
-                gallery: ['survey/1.png','survey/2.png','survey/3.png','survey/4.png'],
-                github: 'https://github.com/Ismail158818/Surveys-Website',
-                details: `<ul>
-                    <li>واجهة إنشاء استبيانات سهلة الاستخدام</li>
-                    <li>أنواع متعددة من الأسئلة (اختيار متعدد، نص، إلخ)</li>
-                    <li>عرض النتائج وتحليلها</li>
-                    <li>نظام إدارة المستجيبين</li>
-                    <li>تصدير النتائج بتنسيقات مختلفة</li>
-                </ul>`
+        desc: 'منصة متكاملة للتواصل الاجتماعي مبنية باستخدام Laravel وPHP وHTML وCSS وBootstrap وJavaScript. تشمل مصادقة المستخدمين، منشورات، تعليقات، متابعة/حظر، مجموعات، ودردشة فورية. تم التركيز على الأداء وتجربة المستخدم. خبرتي في بناء هذا المشروع شملت تصميم قاعدة بيانات مرنة، وتكامل مع خدمات خارجية مثل Chatify وPusher، بالإضافة إلى بناء RESTful API متكامل.',
+        img: 'social/1.png',
+        gallery: ['social/1.png','social/2.png','social/3.png','social/4.png'],
+        github: 'https://github.com/Ismail158818/social-media-platform',
+        details: `<ul><li>تسجيل ودخول المستخدمين مع مصادقة آمنة</li><li>إمكانية النشر، التعليق، المتابعة والحظر</li><li>دعم إنشاء المجموعات والدردشة الفورية عبر Chatify</li><li>نظام بحث وتصفية متقدم للمنشورات</li><li>لوحة تحكم للإدارة وتحليل البيانات</li><li>RESTful API متكامل</li></ul>`
             },
             {
                 title: 'متجر كتب إلكتروني',
-                desc: 'متجر إلكتروني متكامل لإدارة الكتب مع واجهة برمجة تطبيقات RESTful. تم التركيز على بناء نظام Backend قوي باستخدام Laravel مع دعم كامل للدفع الإلكتروني وإدارة المخزون.',
+                desc: 'متجر إلكتروني متكامل لإدارة الكتب، التصنيفات، المفضلة، والدفع الإلكتروني. تم بناء واجهة برمجة تطبيقات RESTful، مع لوحة تحكم للإدارة، ونظام تصنيف متقدم. تم التركيز على تجربة المستخدم وسهولة البحث والتصفح، مع دعم الدفع الإلكتروني عبر Stripe. خبرتي شملت بناء نظام إدارة المخزون، وتكامل مع خدمات الدفع، وتصميم قاعدة بيانات فعالة.',
                 img: 'Book/1.png',
                 gallery: ['Book/1.png','Book/2.png','Book/3.png','Book/4.png'],
                 github: 'https://github.com/Ismail158818/Book-Store',
-                details: `<ul>
-                    <li>نظام إدارة الكتب والفئات</li>
-                    <li>عربة تسوق ودفع إلكتروني</li>
-                    <li>واجهة برمجة تطبيقات RESTful</li>
-                    <li>لوحة تحكم للإدارة</li>
-                    <li>نظام تقييم الكتب</li>
-                </ul>`
+                details: `<ul><li>إدارة وتصنيف الكتب</li><li>إضافة للمفضلة</li><li>دعم الدفع الإلكتروني</li><li>واجهة API متكاملة</li><li>لوحة تحكم للإدارة</li></ul>`
+            },
+            {
+                title: 'منصة إدارة استبيانات',
+                desc: 'منصة متقدمة لإنشاء الاستبيانات وجمع الردود، مع خوارزميات برمجة ديناميكية وجينية لتوجيه المستثمرين وتحسين النقل. تم بناء نظام تحليل بيانات متقدم، مع واجهة مستخدم سهلة، ودعم تصدير النتائج. خبرتي شملت بناء خوارزميات تحليل مخصصة، وتكامل مع أدوات إحصائية، وتصميم واجهات تفاعلية.',
+                img: 'survey/1.png',
+                gallery: ['survey/1.png','survey/2.png','survey/3.png','survey/4.png'],
+                github: 'https://github.com/Ismail158818/Surveys-Website',
+                details: `<ul><li>إنشاء استبيانات وجمع الردود</li><li>تخزين البيانات بأمان</li><li>دمج خوارزميات متقدمة للتحليل</li><li>تصدير النتائج وتحليلها</li></ul>`
             },
             {
                 title: 'موقع أفلام ومسلسلات',
-                desc: 'منصة لإدارة محتوى الأفلام والمسلسلات مع نظام تصنيف متقدم. تم بناء نظام Backend متكامل باستخدام Laravel مع دعم لإدارة المحتوى وتصنيفه.',
+                desc: 'منصة متكاملة لإدارة محتوى الأفلام والمسلسلات مع ميزات البحث، التصنيف، المفضلة، والتنزيل. تم بناء نظام إدارة حلقات، مع دعم رفع الصور، ونظام تصنيف متقدم. خبرتي شملت بناء لوحة تحكم للإدارة، وتكامل مع واجهات برمجة تطبيقات خارجية لجلب بيانات الأفلام، وتصميم واجهات مستخدم جذابة.',
                 img: 'CineHub/1.png',
                 gallery: ['CineHub/1.png','CineHub/2.png','CineHub/3.png','CineHub/4.png'],
                 github: 'https://github.com/Ismail158818/CineHub',
-                details: `<ul>
-                    <li>إدارة الأفلام والمسلسلات</li>
-                    <li>نظام تصنيف وتقييم</li>
-                    <li>بحث متقدم</li>
-                    <li>لوحة تحكم للإدارة</li>
-                </ul>`
+                details: `<ul><li>إضافة وتعديل الأفلام والمسلسلات</li><li>بحث وتصنيف متقدم</li><li>إضافة للمفضلة</li><li>إدارة الحلقات</li><li>رفع صور متعددة لكل عمل</li></ul>`
+            },
+            {
+                title: 'تطبيق قائمة مهام',
+                desc: 'تطبيق ويب متكامل لإدارة المهام مع تصنيفات، تتبع الحالة، مؤشرات التأخير، وواجهة مستخدم نظيفة. تم بناء نظام إشعارات للمهام المتأخرة، مع دعم تصدير المهام، ولوحة تحكم للإدارة. خبرتي شملت بناء نظام صلاحيات، وتصميم قاعدة بيانات مرنة، وتكامل مع خدمات خارجية.',
+                img: 'todolist/1.png',
+                gallery: ['todolist/1.png','todolist/2.png','todolist/3.png','todolist/4.png'],
+                github: 'https://github.com/Ismail158818/To-Do-List',
+                details: `<ul><li>إضافة وتصنيف المهام</li><li>تتبع حالة المهام</li><li>تنبيهات للمهام المتأخرة</li><li>تصدير المهام</li></ul>`
             },
             {
                 title: 'منصة إدارة فعاليات',
-                desc: 'نظام متكامل لإدارة الفعاليات مع حجز تذاكر تلقائي ودفع إلكتروني. تم بناء نظام Backend قوي باستخدام Laravel مع دعم كامل لإدارة الفعاليات والحضور.',
+                desc: 'نظام متكامل لإدارة الفعاليات مع حجز تذاكر تلقائي ودفع إلكتروني عبر Stripe. تم بناء نظام إدارة حضور، مع دعم تصدير التقارير، ولوحة تحكم للإدارة. خبرتي شملت بناء نظام حجز تذاكر، وتكامل مع خدمات الدفع، وتصميم واجهات مستخدم تفاعلية.',
                 img: 'party/1.png',
                 gallery: ['party/1.png','party/2.png','party/3.png','party/4.png'],
                 github: 'https://github.com/Ismail158818/Party-Mangement',
-                details: `<ul>
-                    <li>إنشاء الفعاليات وإدارتها</li>
-                    <li>حجز التذاكر إلكترونياً</li>
-                    <li>نظام الدفع الإلكتروني</li>
-                    <li>إدارة الحضور</li>
-                </ul>`
+                details: `<ul><li>حجز تذاكر تلقائي</li><li>دعم الدفع الإلكتروني عبر Stripe</li><li>تصدير تقارير الحضور</li></ul>`
             }
         ],
         skillsTitle: 'المهارات التقنية',
         skills: [
-            {name: 'HTML5', icon: 'fab fa-html5', level: 90},
-            {name: 'CSS3', icon: 'fab fa-css3-alt', level: 85},
-            {name: 'JavaScript', icon: 'fab fa-js', level: 80},
             {name: 'PHP', icon: 'fab fa-php', level: 95},
             {name: 'Laravel', icon: 'fab fa-laravel', level: 92},
             {name: 'MySQL', icon: 'fas fa-database', level: 90},
             {name: 'Bootstrap', icon: 'fab fa-bootstrap', level: 90},
             {name: 'Git/GitHub', icon: 'fab fa-git-alt', level: 90},
-            {name: 'RESTful API', icon: 'fas fa-plug', level: 90}
+            {name: 'RESTful API', icon: 'fas fa-plug', level: 90},
+            {name: 'Pusher/Chatify', icon: 'fas fa-comments', level: 80},
+            {name: 'Payment Integration', icon: 'fas fa-credit-card', level: 80}
         ],
         footerText: '',
         langBtn: 'EN'
@@ -122,215 +86,137 @@ const data = {
     en: {
         dir: 'ltr', lang: 'en',
         nav: ['Home','About','Portfolio','Skills','Contact'],
-        heroName: 'Eng. Ismail Mahmoud Basbous',
-        heroJob: 'Full Stack Developer ',
-        heroSummary: 'Experienced Full Stack Developer skilled in building complete web applications from frontend to backend. Specialized in Laravel for backend and HTML/CSS/JavaScript for frontend. Passionate about delivering integrated and efficient solutions.',
+        heroName: 'Eng.ismail mahmoud Basbous',
+        heroJob: 'Laravel Back-End Developer',
+        heroSummary: 'Dedicated Laravel back-end developer with hands-on experience in building scalable web applications and RESTful APIs. Passionate about delivering efficient and secure solutions.',
         heroBtn: 'View My Work',
         aboutTitle: 'About Me',
-        aboutBio: 'Eng. Ismail Mahmoud Basbous, a Full Stack Developer with hands-on experience in building complete web applications. Proficient in PHP and Laravel for backend development, and HTML, CSS, and JavaScript for frontend development. Experienced in building interactive user interfaces using Bootstrap and JavaScript, as well as developing robust backend systems with Laravel. I focus on delivering end-to-end solutions with emphasis on user experience and system performance.',
+        aboutBio: 'Eng.ismail mahmoud Basbous, a Laravel back-end developer with hands-on experience in building scalable web applications and RESTful APIs. Proficient in PHP, MySQL, Laravel, Bootstrap, and modern development tools. Skilled in database design, real-time communication using Pusher/Chatify, payment integration (Stripe), and version control with Git/GitHub. Strong problem-solving abilities and a passion for delivering efficient and secure backend solutions. Committed to continuous learning and contributing to impactful software projects.',
         contactInfo: [
-            '<i class="fas fa-envelope"></i> ismail158818@gmail.com',
+            '<i class="fas fa-envelope"></i> ismahel680@gmail.com',
             '<i class="fab fa-whatsapp"></i> <a href="https://wa.me/963936147908" target="_blank" style="text-decoration:none;color:inherit">Contact via WhatsApp</a>',
             '<i class="fas fa-map-marker-alt"></i> Damascus, Syria'
         ],
         contactFormTitle: 'Contact Me',
         formName: 'Name',
- formEmail: 'Email',
+        formEmail: 'Email',
         formMsg: 'Your Message',
         formSendBtn: 'Send',
         portfolioTitle: 'My Projects',
         projects: [
             {
                 title: 'Social Media Platform',
-                desc: 'A comprehensive social media platform built with Laravel for backend and HTML/CSS/JavaScript for frontend. Features an interactive user interface with authentication system, post creation, comments, following, and real-time chat. I developed both frontend and backend for this project.',
-                img: 'social/1.png',
-                gallery: ['social/1.png','social/2.png','social/3.png','social/4.png','social/5.png','social/6.png','social/7.png'],
-                github: 'https://github.com/Ismail158818/social-media-platform',
-                details: `<ul>
-                    <li>Interactive UI with HTML/CSS/JavaScript</li>
-                    <li>Backend system using Laravel</li>
-                    <li>User authentication and data security</li>
-                    <li>Post creation and comments</li>
-                    <li>User following system</li>
-                    <li>Real-time chat using WebSocket</li>
-                </ul>`
-            },
-            {
-                title: 'To-Do List Application',
-                desc: 'A complete web application for task management with clean and user-friendly interface. The frontend was developed using HTML, CSS, and JavaScript, while the task management system was built with Laravel. Features include task categorization, priority setting, and deadline alerts.',
-                img: 'todolist/1.png',
-                gallery: ['todolist/1.png','todolist/2.png','todolist/3.png','todolist/4.png'],
-                github: 'https://github.com/Ismail158818/To-Do-List',
-                details: `<ul>
-                    <li>Attractive and easy-to-use interface</li>
-                    <li>Add, edit, and delete tasks</li>
-                    <li>Task categorization by priority</li>
-                    <li>Deadline alerts</li>
-                    <li>Secure backend system with Laravel</li>
-                </ul>`
-            },
-            {
-                title: 'Survey Management Platform',
-                desc: 'An advanced platform for creating and managing surveys with a feature-rich user interface. I developed the frontend using HTML, CSS, and JavaScript with focus on user experience, while the survey management and results analysis system was built with Laravel.',
-                img: 'survey/1.png',
-                gallery: ['survey/1.png','survey/2.png','survey/3.png','survey/4.png'],
-                github: 'https://github.com/Ismail158818/Surveys-Website',
-                details: `<ul>
-                    <li>Easy-to-use survey creation interface</li>
-                    <li>Multiple question types (multiple choice, text, etc)</li>
-                    <li>Results visualization and analysis</li>
-                    <li>Respondent management system</li>
-                    <li>Export results in different formats</li>
-                </ul>`
-            },
+desc: 'Developed a comprehensive social media platform using Laravel, PHP, HTML, CSS, Bootstrap, and JavaScript. Features include secure user authentication, post creation, commenting, follow/block functionality, group management, and real-time chat using Chatify and Pusher.',
+img: 'social/1.png',
+gallery: ['social/1.png','social/2.png','social/3.png','social/4.png'],
+github: 'https://github.com/Ismail158818/social-media-platform',
+details: `<ul><li>Secure user registration and authentication</li><li>Post creation, comments, and follow/block features</li><li>Group creation and real-time chat via Chatify and Pusher</li><li>Advanced post search and filtering</li></ul>`
+    },
             {
                 title: 'Online Bookstore',
-                desc: 'A complete e-commerce platform for book management with RESTful API. Focused on building a robust backend system using Laravel with full support for electronic payments and inventory management.',
+                desc: 'Designed an online bookstore with a fully functional API, book management, categories, favorites, and integrated electronic payment.',
                 img: 'Book/1.png',
                 gallery: ['Book/1.png','Book/2.png','Book/3.png','Book/4.png'],
                 github: 'https://github.com/Ismail158818/Book-Store',
-                details: `<ul>
-                    <li>Book and category management</li>
-                    <li>Shopping cart and electronic payment</li>
-                    <li>RESTful API</li>
-                    <li>Admin dashboard</li>
-                    <li>Book rating system</li>
-                </ul>`
+                details: `<ul><li>Book management and categorization</li><li>Add to favorites</li><li>Electronic payment support</li><li>Full-featured API</li></ul>`
+            },
+            {
+                title: 'Survey Management Platform',
+                desc: 'Developed a survey management platform with dynamic and genetic algorithms for investor guidance and goods transportation optimization.',
+                img: 'survey/1.png',
+                gallery: ['survey/1.png','survey/2.png','survey/3.png','survey/4.png'],
+                github: 'https://github.com/Ismail158818/Surveys-Website',
+                details: `<ul><li>Create surveys and collect responses</li><li>Secure data storage</li><li>Advanced algorithms for analysis</li></ul>`
             },
             {
                 title: 'Movies and TV Shows Website',
-                desc: 'A content management platform for movies and TV shows with advanced rating system. Built a complete backend system using Laravel with support for content management and categorization.',
+                desc: 'Content management platform for movies and TV shows with search, tagging, favorites, and download features.',
                 img: 'CineHub/1.png',
                 gallery: ['CineHub/1.png','CineHub/2.png','CineHub/3.png','CineHub/4.png'],
                 github: 'https://github.com/Ismail158818/CineHub',
-                details: `<ul>
-                    <li>Movies and series management</li>
-                    <li>Rating and review system</li>
-                    <li>Advanced search</li>
-                    <li>Admin dashboard</li>
-                </ul>`
+                details: `<ul><li>Add/edit movies and series</li><li>Advanced search and categorization</li><li>Add to favorites</li><li>Episode management</li></ul>`
+            },
+            {
+                title: 'To-Do List Application',
+                desc: 'Task management app with categorization, status tracking, overdue markers, and a clean UI for productivity.',
+                img: 'todolist/1.png',
+                gallery: ['todolist/1.png','todolist/2.png','todolist/3.png','todolist/4.png'],
+                github: 'https://github.com/Ismail158818/To-Do-List',
+                details: `<ul><li>Add and categorize tasks</li><li>Status tracking</li><li>Overdue task alerts</li></ul>`
             },
             {
                 title: 'Event Management Platform',
-                desc: 'A complete system for event management with automatic ticket reservation and electronic payment. Built a robust backend system using Laravel with full support for event and attendance management.',
+                desc: 'Event management system with automated ticket reservation and Stripe payment integration.',
                 img: 'party/1.png',
                 gallery: ['party/1.png','party/2.png','party/3.png','party/4.png'],
                 github: 'https://github.com/Ismail158818/Party-Mangement',
-                details: `<ul>
-                    <li>Event creation and management</li>
-                    <li>Electronic ticket reservation</li>
-                    <li>Payment system</li>
-                    <li>Attendance management</li>
-                </ul>`
+                details: `<ul><li>Automated ticket reservation</li><li>Stripe payment support</li></ul>`
             }
         ],
         skillsTitle: 'Technical Skills',
         skills: [
-            {name: 'HTML5', icon: 'fab fa-html5', level: 90},
-            {name: 'CSS3', icon: 'fab fa-css3-alt', level: 85},
-            {name: 'JavaScript', icon: 'fab fa-js', level: 80},
-            {name: 'PHP', icon: 'fab fa-php', level: 95},
             {name: 'Laravel', icon: 'fab fa-laravel', level: 92},
             {name: 'MySQL', icon: 'fas fa-database', level: 90},
-            {name: 'Bootstrap', icon: 'fab fa-bootstrap', level: 90},
+            {name: 'Bootstrap', icon: 'fab fa-bootstrap', level: 75},
             {name: 'Git/GitHub', icon: 'fab fa-git-alt', level: 90},
-            {name: 'RESTful API', icon: 'fas fa-plug', level: 90}
+            {name: 'RESTful API', icon: 'fas fa-plug', level: 90},
+            {name: 'Pusher', icon: 'fas fa-comments', level: 80},
+            {name: 'Payment Integration', icon: 'fas fa-credit-card', level: 80}
         ],
         footerText: '',
         langBtn: 'AR'
     }
 };
-
 let currentLang = 'ar';
 const projectDetails = {
     ar: [
         {
             title: 'منصة تواصل اجتماعي',
-            desc: 'منصة متكاملة للتواصل الاجتماعي مبنية باستخدام Laravel للBackend وHTML/CSS/JavaScript للFrontend. تشمل واجهة مستخدم تفاعلية مع نظام مصادقة، إنشاء المنشورات، التعليقات، المتابعة، والمحادثات الفورية. قمت بتطوير كل من الواجهة الأمامية والخلفية لهذا المشروع.',
+            desc: 'منصة متكاملة للتواصل الاجتماعي مبنية باستخدام Laravel وPHP وHTML وCSS وBootstrap وJavaScript. تشمل مصادقة المستخدمين، منشورات، تعليقات، متابعة/حظر، مجموعات، ودردشة فورية. تم التركيز على الأمان، الأداء، وتجربة المستخدم. تم تطبيق تقنيات WebSocket للدردشة الفورية، ونظام إشعارات متقدم، مع لوحة تحكم للإدارة وتحليل البيانات. خبرتي في بناء هذا المشروع شملت تصميم قاعدة بيانات مرنة، وتكامل مع خدمات خارجية مثل Chatify وPusher، بالإضافة إلى بناء RESTful API متكامل.',
             img: 'social/1.png',
             gallery: ['social/1.png','social/2.png','social/3.png','social/4.png'],
             github: 'https://github.com/Ismail158818/social-media-platform',
-            details: `<ul>
-                <li>واجهة مستخدم تفاعلية باستخدام HTML/CSS/JavaScript</li>
-                <li>نظام Backend باستخدام Laravel</li>
-                <li>مصادقة المستخدمين وتأمين البيانات</li>
-                <li>إنشاء المنشورات والتعليقات</li>
-                <li>نظام متابعة المستخدمين</li>
-                <li>دردشة فورية باستخدام WebSocket</li>
-            </ul>`
+            details: `<ul><li>تسجيل ودخول المستخدمين مع مصادقة آمنة</li><li>إمكانية النشر، التعليق، المتابعة والحظر</li><li>دعم إنشاء المجموعات والدردشة الفورية عبر Chatify</li><li>نظام بحث وتصفية متقدم للمنشورات</li><li>لوحة تحكم للإدارة وتحليل البيانات</li><li>RESTful API متكامل</li></ul>`
         },
         {
-            title: 'تطبيق قائمة مهام',
-            desc: 'تطبيق ويب متكامل لإدارة المهام مع واجهة مستخدم نظيفة وسهلة الاستخدام. تم تطوير الواجهة الأمامية باستخدام HTML وCSS وJavaScript، بينما تم بناء نظام إدارة المهام باستخدام Laravel. يتضمن التطبيق ميزات مثل تصنيف المهام، تحديد الأولويات، وتنبيهات المواعيد النهائية.',
-            img: 'todolist/1.png',
-            gallery: ['todolist/1.png','todolist/2.png','todolist/3.png','todolist/4.png'],
-            github: 'https://github.com/Ismail158818/To-Do-List',
-            details: `<ul>
-                <li>واجهة مستخدم جذابة وسهلة الاستخدام</li>
-                <li>إضافة وتعديل وحذف المهام</li>
-                <li>تصنيف المهام حسب الأولوية</li>
-                <li>تنبيهات المواعيد النهائية</li>
-                <li>نظام Backend آمن باستخدام Laravel</li>
-            </ul>`
+            title: 'متجر كتب إلكتروني',
+            desc: 'متجر إلكتروني متكامل لإدارة الكتب، التصنيفات، المفضلة، والدفع الإلكتروني. تم بناء واجهة برمجة تطبيقات RESTful، مع لوحة تحكم للإدارة، ونظام تصنيف متقدم. تم التركيز على تجربة المستخدم وسهولة البحث والتصفح، مع دعم الدفع الإلكتروني عبر Stripe. خبرتي شملت بناء نظام إدارة المخزون، وتكامل مع خدمات الدفع، وتصميم قاعدة بيانات فعالة.',
+            img: 'Book/1.png',
+            gallery: ['Book/1.png','Book/2.png','Book/3.png','Book/4.png'],
+            github: 'https://github.com/Ismail158818/Book-Store',
+            details: `<ul><li>إدارة وتصنيف الكتب</li><li>إضافة للمفضلة</li><li>دعم الدفع الإلكتروني</li><li>واجهة API متكاملة</li><li>لوحة تحكم للإدارة</li></ul>`
         },
         {
             title: 'منصة إدارة استبيانات',
-            desc: 'منصة متقدمة لإنشاء وإدارة الاستبيانات مع واجهة مستخدم غنية بالميزات. قمت بتطوير الواجهة الأمامية باستخدام HTML وCSS وJavaScript مع التركيز على تجربة المستخدم، بينما تم بناء نظام إدارة الاستبيانات وتحليل النتائج باستخدام Laravel.',
+            desc: 'منصة متقدمة لإنشاء الاستبيانات وجمع الردود، مع خوارزميات برمجة ديناميكية وجينية لتوجيه المستثمرين وتحسين النقل. تم بناء نظام تحليل بيانات متقدم، مع واجهة مستخدم سهلة، ودعم تصدير النتائج. خبرتي شملت بناء خوارزميات تحليل مخصصة، وتكامل مع أدوات إحصائية، وتصميم واجهات تفاعلية.',
             img: 'survey/1.png',
             gallery: ['survey/1.png','survey/2.png','survey/3.png','survey/4.png'],
             github: 'https://github.com/Ismail158818/Surveys-Website',
-            details: `<ul>
-                <li>واجهة إنشاء استبيانات سهلة الاستخدام</li>
-                <li>أنواع متعددة من الأسئلة (اختيار متعدد، نص، إلخ)</li>
-                <li>عرض النتائج وتحليلها</li>
-                <li>نظام إدارة المستجيبين</li>
-                <li>تصدير النتائج بتنسيقات مختلفة</li>
-            </ul>`
-        }
-    ],
-    en: [
-        {
-            title: 'Social Media Platform',
-            desc: 'A comprehensive social media platform built with Laravel for backend and HTML/CSS/JavaScript for frontend. Features an interactive user interface with authentication system, post creation, comments, following, and real-time chat. I developed both frontend and backend for this project.',
-            img: 'social/1.png',
-            gallery: ['social/1.png','social/2.png','social/3.png','social/4.png'],
-            github: 'https://github.com/Ismail158818/social-media-platform',
-            details: `<ul>
-                <li>Interactive UI with HTML/CSS/JavaScript</li>
-                <li>Backend system using Laravel</li>
-                <li>User authentication and data security</li>
-                <li>Post creation and comments</li>
-                <li>User following system</li>
-                <li>Real-time chat using WebSocket</li>
-            </ul>`
+            details: `<ul><li>إنشاء استبيانات وجمع الردود</li><li>تخزين البيانات بأمان</li><li>دمج خوارزميات متقدمة للتحليل</li><li>تصدير النتائج وتحليلها</li></ul>`
         },
         {
-            title: 'To-Do List Application',
-            desc: 'A complete web application for task management with clean and user-friendly interface. The frontend was developed using HTML, CSS, and JavaScript, while the task management system was built with Laravel. Features include task categorization, priority setting, and deadline alerts.',
+            title: 'موقع أفلام ومسلسلات',
+            desc: 'منصة متكاملة لإدارة محتوى الأفلام والمسلسلات مع ميزات البحث، التصنيف، المفضلة، والتنزيل. تم بناء نظام إدارة حلقات، مع دعم رفع الصور، ونظام تصنيف متقدم. خبرتي شملت بناء لوحة تحكم للإدارة، وتكامل مع واجهات برمجة تطبيقات خارجية لجلب بيانات الأفلام، وتصميم واجهات مستخدم جذابة.',
+            img: 'CineHub/1.png',
+            gallery: ['CineHub/1.png','CineHub/2.png','CineHub/3.png','CineHub/4.png'],
+            github: 'https://github.com/Ismail158818/CineHub',
+            details: `<ul><li>إضافة وتعديل الأفلام والمسلسلات</li><li>بحث وتصنيف متقدم</li><li>إضافة للمفضلة</li><li>إدارة الحلقات</li><li>رفع صور متعددة لكل عمل</li></ul>`
+        },
+        {
+            title: 'تطبيق قائمة مهام',
+            desc: 'تطبيق ويب متكامل لإدارة المهام مع تصنيفات، تتبع الحالة، مؤشرات التأخير، وواجهة مستخدم نظيفة. تم بناء نظام إشعارات للمهام المتأخرة، مع دعم تصدير المهام، ولوحة تحكم للإدارة. خبرتي شملت بناء نظام صلاحيات، وتصميم قاعدة بيانات مرنة، وتكامل مع خدمات خارجية.',
             img: 'todolist/1.png',
             gallery: ['todolist/1.png','todolist/2.png','todolist/3.png','todolist/4.png'],
             github: 'https://github.com/Ismail158818/To-Do-List',
-            details: `<ul>
-                <li>Attractive and easy-to-use interface</li>
-                <li>Add, edit, and delete tasks</li>
-                <li>Task categorization by priority</li>
-                <li>Deadline alerts</li>
-                <li>Secure backend system with Laravel</li>
-            </ul>`
+            details: `<ul><li>إضافة وتصنيف المهام</li><li>تتبع حالة المهام</li><li>تنبيهات للمهام المتأخرة</li><li>تصدير المهام</li></ul>`
         },
         {
-            title: 'Survey Management Platform',
-            desc: 'An advanced platform for creating and managing surveys with a feature-rich user interface. I developed the frontend using HTML, CSS, and JavaScript with focus on user experience, while the survey management and results analysis system was built with Laravel.',
-            img: 'survey/1.png',
-            gallery: ['survey/1.png','survey/2.png','survey/3.png','survey/4.png'],
-            github: 'https://github.com/Ismail158818/Surveys-Website',
-            details: `<ul>
-                <li>Easy-to-use survey creation interface</li>
-                <li>Multiple question types (multiple choice, text, etc)</li>
-                <li>Results visualization and analysis</li>
-                <li>Respondent management system</li>
-                <li>Export results in different formats</li>
-            </ul>`
+            title: 'منصة إدارة فعاليات',
+            desc: 'نظام متكامل لإدارة الفعاليات مع حجز تذاكر تلقائي ودفع إلكتروني عبر Stripe. تم بناء نظام إدارة حضور، مع دعم تصدير التقارير، ولوحة تحكم للإدارة. خبرتي شملت بناء نظام حجز تذاكر، وتكامل مع خدمات الدفع، وتصميم واجهات مستخدم تفاعلية.',
+            img: 'party/1.png',
+            gallery: ['party/1.png','party/2.png','party/3.png','party/4.png'],
+            github: 'https://github.com/Ismail158818/Party-Mangement',
+            details: `<ul><li>حجز تذاكر تلقائي</li><li>دعم الدفع الإلكتروني عبر Stripe</li><li>تصدير تقارير الحضور</li></ul>`
         }
     ]
 };
@@ -468,7 +354,7 @@ const emailBtn = document.getElementById('emailContactBtn');
 if(emailBtn) {
     emailBtn.addEventListener('click', function(e) {
         e.preventDefault();
-        window.location.href = 'mailto:ismail@158818@gmail.com';
+        window.location.href = 'mailto:ismahel680@gmail.com';
     });
 }
 
