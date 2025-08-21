@@ -9,7 +9,7 @@ const data = {
         aboutTitle: 'من أنا؟',
         aboutBio: 'المهندس إسماعيل محمود بصبوص مطور Laravel Backend بخبرة عملية في بناء تطبيقات ويب قابلة للتوسع وواجهات برمجة تطبيقات RESTful. ماهر في PHP وMySQL وLaravel وBootstrap وأدوات التطوير الحديثة. بارع في تصميم قواعد البيانات، والتواصل الفوري باستخدام Pusher/Chatify، ودمج الدفع الإلكتروني ، والتحكم في الإصدارات باستخدام Git/GitHub. أتمتع بقدرات قوية في حل المشكلات وشغف بتقديم حلول خلفية فعالة وآمنة. ملتزم بالتعلم المستمر والمساهمة في مشاريع برمجية مؤثرة.',
         contactInfo: [
-            '<i class="fas fa-envelope"></i> ismahel680@gmail.com',
+            '<i class="fas fa-envelope"></i> ismail158818@gmail.com',
             '<i class="fab fa-whatsapp"></i> <a href="https://wa.me/963936147908" target="_blank" style="text-decoration:none;color:inherit">تواصل واتساب</a>',
             '<i class="fas fa-map-marker-alt"></i> دمشق، سوريا'
         ],
@@ -71,13 +71,14 @@ const data = {
         ],
         skillsTitle: 'المهارات التقنية',
         skills: [
-            {name: 'PHP', icon: 'fab fa-php', level: 95},
             {name: 'Laravel', icon: 'fab fa-laravel', level: 92},
             {name: 'MySQL', icon: 'fas fa-database', level: 90},
-            {name: 'Bootstrap', icon: 'fab fa-bootstrap', level: 90},
             {name: 'Git/GitHub', icon: 'fab fa-git-alt', level: 90},
             {name: 'RESTful API', icon: 'fas fa-plug', level: 90},
-            {name: 'Pusher/Chatify', icon: 'fas fa-comments', level: 80},
+            {name: 'Pusher', icon: 'fas fa-comments', level: 80},
+            {name: 'Bootstrap ', icon: 'fab fa-bootstrap', level: 75},
+            {name: 'Html', icon: 'fab fa-html5', level: 82},
+            {name: 'Css', icon: 'fab fa-css3-alt', level: 72},
             {name: 'Payment Integration', icon: 'fas fa-credit-card', level: 80}
         ],
         footerText: '',
@@ -93,7 +94,7 @@ const data = {
         aboutTitle: 'About Me',
         aboutBio: 'Eng.ismail mahmoud Basbous, a Laravel back-end developer with hands-on experience in building scalable web applications and RESTful APIs. Proficient in PHP, MySQL, Laravel, Bootstrap, and modern development tools. Skilled in database design, real-time communication using Pusher/Chatify, payment integration (Stripe), and version control with Git/GitHub. Strong problem-solving abilities and a passion for delivering efficient and secure backend solutions. Committed to continuous learning and contributing to impactful software projects.',
         contactInfo: [
-            '<i class="fas fa-envelope"></i> ismahel680@gmail.com',
+            '<i class="fas fa-envelope"></i> ismail158818@gmail.com',
             '<i class="fab fa-whatsapp"></i> <a href="https://wa.me/963936147908" target="_blank" style="text-decoration:none;color:inherit">Contact via WhatsApp</a>',
             '<i class="fas fa-map-marker-alt"></i> Damascus, Syria'
         ],
@@ -157,10 +158,12 @@ details: `<ul><li>Secure user registration and authentication</li><li>Post creat
         skills: [
             {name: 'Laravel', icon: 'fab fa-laravel', level: 92},
             {name: 'MySQL', icon: 'fas fa-database', level: 90},
-            {name: 'Bootstrap', icon: 'fab fa-bootstrap', level: 75},
             {name: 'Git/GitHub', icon: 'fab fa-git-alt', level: 90},
             {name: 'RESTful API', icon: 'fas fa-plug', level: 90},
             {name: 'Pusher', icon: 'fas fa-comments', level: 80},
+            {name: 'Bootstrap ', icon: 'fab fa-bootstrap', level: 75},
+            {name: 'Html', icon: 'fab fa-html5', level: 82},
+            {name: 'Css', icon: 'fab fa-css3-alt', level: 72},
             {name: 'Payment Integration', icon: 'fas fa-credit-card', level: 80}
         ],
         footerText: '',
