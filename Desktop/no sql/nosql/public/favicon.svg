@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#2f7a3d"/>
+      <stop offset="100%" stop-color="#1a5c2b"/>
+    </linearGradient>
+  </defs>
+  <rect width="64" height="64" rx="12" fill="url(#sky)"/>
+  <!-- Ancient gate / arch (Ebla palace motif) -->
+  <path d="M10 48 V28 Q32 8 54 28 V48 Z" fill="#c9a227"/>
+  <path d="M16 48 V30 Q32 16 48 30 V48 Z" fill="#1a5c2b"/>
+  <rect x="27" y="34" width="10" height="14" rx="1" fill="#e8d5a3"/>
+  <!-- Cuneiform wedge above door -->
+  <path d="M28 24 L32 18 L36 24 Z" fill="#e8d5a3"/>
+  <rect x="30" y="24" width="4" height="3" fill="#c9a227"/>
+</svg>
